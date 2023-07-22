@@ -13,6 +13,7 @@ program.parse(process.argv);
 const argv = program.opts();
 
 function invokeAction({ action, id, name, email, phone }) {
+  console.log('Welcome!');
   switch (action) {
     case "list":
           listContacts();
