@@ -5,6 +5,8 @@
   },
   "dependencies": {
     "commander": "^11.0.0",
-    "nodemon": "^3.0.1"
+    "nodemon": "^3.0.1",
+    "uuid": "^9.0.0",
+    "yargs": "^17.7.2"
   }
 }
